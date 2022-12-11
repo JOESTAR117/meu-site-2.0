@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap');
+
+@font-face {
+    font-family: vogue;
+    src: url(font/Vogue.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    color: #242424;
+    font-family: 'Bebas Neue','cursive';
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+   
+}
+nav {
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.7),transparent);
+    text-align: center;
+    z-index: 20;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px;
+    font: normal 1.6em vogue;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid white;
+    color: #10f092;
+    cursor: pointer;
+}
+
+h1,h2,h4,h5,h6{
+    font:normal 3em vogue;
+    color: black;  
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+main {
+    display: block;
+    background-color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 1660px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: center;
+}
+section.module p{
+    margin: 15px 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+section.module:last-child{
+    margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 4em;
+    color: white;
+}
+section.module.content{
+    padding: 40px 0;
+    background-color: #103240;
+}
+section.module.content.br{
+    background-color: #224e2b;
+}
+section.module.content ul{
+    columns: 2;
+}
+section.module.content h3 {
+    font-size: 2em;
+    text-align: center;
+}
+section.module.content a{
+    text-decoration: none;
+    color: #4A8C54;
+}
+section.module.content a:hover{
+    text-decoration: underline;
+}
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover;
+}
+
+section.module.parallax::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom,#00000000 0,#00000000 40%,#000 100%);
+    background:-moz-linear-gradient(linear-gradient(to bottom,#00000000 0,#00000000 40%,#000 100%));
+    background: -o-linear-gradient(linear-gradient(to bottom,#00000000 0,#00000000 40%,#000 100%));
+}
+section.module.parallax-1{
+    background-image: url('https://i.pinimg.com/originals/ee/b1/45/eeb14524f9c1af4c73ca71ecb07c93f6.jpg');
+
+}
+section.module.parallax-2{
+    background-image: url('https://preview.redd.it/9t65aojb6yx61.jpg?auto=webp&s=6ba60e2b523963851ffb07b5ae27046bed0a8ed8');
+}
+section.module.parallax-3{
+    background-image: url('https://images.unsplash.com/photo-1643316385332-d5581ad4d274?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80');
+}
+section.module.parallax-4{
+    background-image: url('https://images.hdqwalls.com/download/ahsoka-tano-star-wars-lofi-m3-3840x2400.jpg');
+}
+section.module.parallax h1{
+    color: white;
+    text-align: center;
+    font-size: 9em;
+    z-index: 10;
+    text-transform: uppercase;
+}
+section.module.content img{
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin:0 auto;
+}
+#paragrafo{
+    text-align: center;
+}
+.video iframe{
+    border-radius: 28px;
+    padding: 20px;
+}
+
+footer{
+    background-color: #2A4359;
+}
+.br{
+    background-color: #519760;
+}
+footer > p{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+@media all and (max-width: 820px) {
+    section.module h2 {
+      font-size: 32px;
+    }
+    .module h2, p{
+      padding: 0 8px;
+    }
+  
+    .container{
+      margin:0;
+      padding:0;
+    }
+  
+    section.module.parallax h1 {
+      font-size: 36px;
+    }
+    nav{
+        width: 100%;
+    }
+    .video iframe{
+        top: 100%; 
+        left: 100%;
+        height: 100%; 
+        width: 80%;
+        margin: 30px 0px;
+  }
+}
