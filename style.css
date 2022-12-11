@@ -94,6 +94,15 @@ section.module.content{
 section.module.content.br{
     background-color: #224e2b;
 }
+section.module.content.anime{
+    background-color: #339AA6;
+}
+section.module.content.jazz{
+    background-color: #07070D;
+}
+section.module.content.natal{
+    background-color: #BF2431;
+}
 section.module.content ul{
     columns: 2;
 }
@@ -146,7 +155,10 @@ section.module.parallax-3{
     background-image: url('https://www.xtrafondos.com/en/descargar.php?id=8824&resolucion=3840x2160');
 }
 section.module.parallax-4{
-    background-image: url('https://images.hdqwalls.com/download/ahsoka-tano-star-wars-lofi-m3-3840x2400.jpg');
+    background-image: url('https://preview.redd.it/g6hg4qt91t951.png?auto=webp&s=ac5bd1948a548d70db601839f2d423b62d16be3d');
+}
+section.module.parallax-5{
+    background-image:url('https://img.freepik.com/premium-photo/christmas-landscape-watercolor-banner-snow-falling-snowflakes-footer-background-merry-christmas_713766-663.jpg?w=2000')
 }
 section.module.parallax h1{
     color: white;
@@ -174,6 +186,15 @@ footer{
 }
 .br{
     background-color: #519760;
+}
+.anime{
+    background-color: #43D9D9;
+}
+.jazz{
+    background-color: #4E4C59;
+}
+.natal{
+    background-color: #1E592D;
 }
 footer > p{
     text-align: center;
