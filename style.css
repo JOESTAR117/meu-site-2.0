@@ -44,6 +44,7 @@ nav ul li a{
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     transition: all 0.25s ease-in-out;
+    font-size: clamp(0.1em,1.6em,2em);
 }
 nav ul li a:hover{
     border-bottom: 3px solid white;
@@ -95,7 +96,7 @@ section.module.content.br{
     background-color: #224e2b;
 }
 section.module.content.anime{
-    background-color: #339AA6;
+    background-color: #b1caeb;
 }
 section.module.content.jazz{
     background-color: #07070D;
@@ -152,7 +153,7 @@ section.module.parallax-2{
     background-image: url('https://preview.redd.it/9t65aojb6yx61.jpg?auto=webp&s=6ba60e2b523963851ffb07b5ae27046bed0a8ed8');
 }
 section.module.parallax-3{
-    background-image: url('https://www.xtrafondos.com/en/descargar.php?id=8824&resolucion=3840x2160');
+    background-image: url('https://images3.alphacoders.com/907/907918.jpg');
 }
 section.module.parallax-4{
     background-image: url('https://images6.alphacoders.com/851/851065.jpg');
