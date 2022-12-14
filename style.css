@@ -56,6 +56,14 @@ h1,h2,h4,h5,h6{
     font:normal 3em vogue;
     color: black;  
 }
+.paragrafo1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 40px 0px;
+    position: relative;
+    top: 10%;
+}
 
 .wrapper{
     width: 100%;
@@ -181,6 +189,48 @@ section.module.content img{
     border-radius: 28px;
     padding: 20px;
 }
+.formulario{
+ background-color: #031922; 
+ text-align: center;
+ margin: auto;
+ align-items: center;
+ color: white;  
+ font-size: 1.2em;
+}
+.formulario-titulo {
+    color: white;
+    font-family: 'Bebas neue';
+}
+#nome,#email{
+    width: 20%;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 1em;
+}
+textarea{
+    text-align: center;
+    width: 40%;
+    height: 100px;
+    font: normal 1em 'Bebas Neue';
+    color: #000;
+    border-radius: 10px;
+    margin: 10px;
+}
+.enviar{
+    width: 10%;
+    margin: 4px 0px 10px 0px;
+    height: 5vh;
+    font-family: 'Bebas neue';  
+    font-size: 1em;
+    border-radius: 7px;  
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.486); 
+}
+.enviar:active{
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.61);
+    font-size: 0.9em ;
+}
 
 footer{
     background-color: #2A4359;
@@ -231,4 +281,24 @@ footer a{
         width: 87%;
         margin: 30px 0px;
   }
+  #nome,#email{
+    width: 45%;
+    height: 3vh;
+    font-size: 1em;
+    position: relative;
+  }
+  .nome1,.email1{
+    position: relative;
+    left: -4%;
+  }
+  
+  .enviar{
+    font-size: 0.7em;
+    width: 25%;
+  }
+  .enviar:active{
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.61);
+    font-size: 0.6em ;
+}
+
 }
