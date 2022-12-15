@@ -266,6 +266,7 @@ footer a{
 @media  (max-width: 330px) {
     nav ul {
         font-size: 0.7em;
+        flex-wrap: wrap;
     }
     nav ul li a:active{
         font-size: 0.6em;
