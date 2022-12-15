@@ -28,16 +28,22 @@ nav {
     width: 100%;
     position: fixed;
     background: linear-gradient(rgba(0,0,0,0.7),transparent);
-    text-align: center;
+    display: flex;
     z-index: 20;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: baseline;
 }
 nav ul li{
-    display: inline-block;
+    display: flex;
+
 }
 nav ul li a{
     text-decoration: none;
     padding: 5px 0;
-    display: inline-block;
+    display: flex;
     margin: 15px 10px;
     font: normal 1.6em vogue;
     color: white;
@@ -50,6 +56,9 @@ nav ul li a:hover{
     border-bottom: 3px solid white;
     color: #10f092;
     cursor: pointer;
+}
+nav ul li a:active{
+    font-size: 1.4em;
 }
 
 h1,h2,h4,h5,h6{
@@ -253,6 +262,33 @@ footer > p{
 footer a{
     text-decoration: none;
     color: #000;
+}
+@media  (max-width: 330px) {
+    nav ul {
+        font-size: 0.7em;
+    }
+    nav ul li a:active{
+        font-size: 0.6em;
+    }
+}
+
+@media  (max-width: 357px) {
+    nav ul li {
+        font-size: 0.9em;
+    }
+    nav ul li a:active{
+        font-size: 0.8em;
+    }
+}
+
+
+@media all and (max-width: 520px) {
+    nav ul li a{
+        font-size: 1em;
+    }
+    nav ul li a:active{
+        font-size: 0.8em;
+    }
 }
 
 @media all and (max-width: 900px) {
